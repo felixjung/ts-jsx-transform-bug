@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "module": "ES2020",
+    "target": "esnext",
+    "lib": ["ES2020", "dom"],
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "allowJs": false,
+    "moduleResolution": "node",
+    "rootDirs": ["./src", "./.storybook"],
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
+    "declaration": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules", "dist", "src/**/*.spec.ts?", "src/**/*.story.ts?"]
+}
